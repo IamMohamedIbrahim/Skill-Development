@@ -1,0 +1,103 @@
+body {
+  background-color: #111;
+  color: white;
+  font-family: Arial, sans-serif;
+}
+
+/* Navbar */
+.custom-navbar {
+  background-color: black;
+}
+
+.navbar-brand {
+  color: orange !important;
+}
+
+/* Hero */
+.hero-section {
+  background: linear-gradient(
+    to right,
+    red,
+    orange,
+    yellow
+  );
+
+  color: black;
+  padding: 120px 20px;
+}
+
+.hero-section h1 {
+  font-size: 4rem;
+  font-weight: bold;
+}
+
+.hero-section p {
+  font-size: 1.5rem;
+}
+
+/* Section */
+.section-title {
+  color: orange;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* Carousel */
+.carousel img {
+  height: 500px;
+  object-fit: cover;
+  border: 5px solid orange;
+}
+
+/* Collapse */
+.info-box {
+  background-color: #222;
+  padding: 25px;
+  border-left: 5px solid yellow;
+  border-radius: 10px;
+}
+
+/* Form */
+.form-container {
+  max-width: 600px;
+  margin: 80px auto;
+  background: #222;
+  padding: 40px;
+  border-radius: 15px;
+}
+
+.form-control,
+.form-select {
+  background: #333;
+  color: white;
+  border: 1px solid orange;
+}
+
+.form-control:focus,
+.form-select:focus {
+  box-shadow: none;
+  border-color: yellow;
+}
+
+/* Table */
+.leaderboard-container {
+  margin-top: 80px;
+}
+
+/* Footer */
+.footer {
+  background: black;
+  padding: 20px;
+  margin-top: 50px;
+  color: orange;
+}
+
+/* Pagination */
+.page-item.active .page-link {
+  background-color: red;
+  border-color: red;
+}
+
+.page-link {
+  color: orange;
+}
